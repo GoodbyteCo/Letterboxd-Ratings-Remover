@@ -1,0 +1,46 @@
+.ratings-histogram-chart
+{
+    opacity: 0;
+}
+
+.film-reviews .rating
+{
+    opacity: 0.1;
+}
+
+.film-reviews
+{
+    display: none;
+}
+
+#jack-but
+{
+    margin: 10px auto 40px auto;
+    text-align: center;
+    display: block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    cursor: pointer;
+    background: transparent;
+    color: #9ab;
+    border-color: #678;
+    border-radius: 4px;
+    font-family: Graphik-Regular-Web,sans-serif;
+    letter-spacing: .075em;
+}
+
+#jack-but:hover
+{
+    background: #242c34;
+}
+
+.poster-viewingdata
+{
+    opacity: 0;
+}
+
+.activity-from-friends
+{
+    display: none;
+}
