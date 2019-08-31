@@ -1,10 +1,8 @@
-<h3 align="center">
-  <br>
-  <a href="https://chrome.google.com/webstore/detail/letterboxd-ratings-remove/hjnkheioinkniboimdnmpcfcnblcmdka"><img src="https://raw.githubusercontent.com/qjack001/Letterboxd-Ratings-Remover/master/icon.png" alt="logo" width="50"></a>
-  <br>
+<h3 align="center"><a href="https://chrome.google.com/webstore/detail/letterboxd-ratings-remove/hjnkheioinkniboimdnmpcfcnblcmdka"><img src="https://raw.githubusercontent.com/qjack001/Letterboxd-Ratings-Remover/master/icon.png" alt="logo" width="50"></a></h3>
+<h1 align="center">
   <a href="https://chrome.google.com/webstore/detail/letterboxd-ratings-remove/hjnkheioinkniboimdnmpcfcnblcmdka">Ratings Remover</a>
-</h3>
-<h5 align="center">for Letterboxd</h5>
+</h1>
+<p align="center"><b>(for Letterboxd)</b></p>
 <hr>
 
 <p align="center">
