@@ -24,9 +24,7 @@ Removes film ratings from view on Letterboxd, and hides reviews (unless clicked 
 
 ## Screenshots
 
-![screenshot (before)](https://raw.githubusercontent.com/qjack001/Letterboxd-Ratings-Remover/master/screenshots/Screen%20Shot%202019-08-28%20at%2011.47.16%20PM.png)
-
-![screenshot (after)](https://raw.githubusercontent.com/qjack001/Letterboxd-Ratings-Remover/master/screenshots/Screen%20Shot%202019-08-28%20at%2011.46.53%20PM.png)
+<img src="https://raw.githubusercontent.com/qjack001/Letterboxd-Ratings-Remover/master/screenshots/Screen%20Shot%202019-08-28%20at%2011.47.16%20PM.png" alt="screenshot (before)" width=400><img src="https://raw.githubusercontent.com/qjack001/Letterboxd-Ratings-Remover/master/screenshots/Screen%20Shot%202019-08-28%20at%2011.46.53%20PM.png" alt="screenshot (after)" width=400>
 
 ## How to Use
 
