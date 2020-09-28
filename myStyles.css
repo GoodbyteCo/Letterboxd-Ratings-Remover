@@ -3,6 +3,23 @@
     opacity: 0;
 }
 
+.activity-review-from-others .film-detail-meta, 
+.activity-review-from-others .body-text,
+.activity-review-from-others:hover h2::after,
+.film-details-list .rating,
+.activity-row span.rating
+{
+    opacity: 0;
+}
+
+.activity-review-from-others:hover .film-detail-meta, 
+.activity-review-from-others:hover .body-text,
+.activity-row span.rating:hover
+{
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+
 .film-reviews .rating
 {
     opacity: 0.1;
@@ -11,6 +28,16 @@
 .film-reviews
 {
     display: none;
+}
+
+.activity-review-from-others h2::after
+{
+    content: "Review hidden. Hover to reveal.";
+    display: block;
+    position: absolute;
+    transform: translateY(20px);
+    font-family: 'Graphik-Light-Web';
+    transition: opacity 0.2s ease;
 }
 
 #jack-but
