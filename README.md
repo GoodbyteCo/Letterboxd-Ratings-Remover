@@ -1,4 +1,4 @@
-<h3 align="center"><a href="https://chrome.google.com/webstore/detail/letterboxd-ratings-remove/hjnkheioinkniboimdnmpcfcnblcmdka"><img src="https://raw.githubusercontent.com/qjack001/Letterboxd-Ratings-Remover/master/icon.png" alt="logo" width="50"></a></h3>
+<h3 align="center"><a href="https://chrome.google.com/webstore/detail/letterboxd-ratings-remove/hjnkheioinkniboimdnmpcfcnblcmdka"><img src="/Chrome/icon.png" alt="logo" width="50"></a></h3>
 <h1 align="center">
   <a href="https://chrome.google.com/webstore/detail/letterboxd-ratings-remove/hjnkheioinkniboimdnmpcfcnblcmdka">Ratings Remover</a>
 </h1>
