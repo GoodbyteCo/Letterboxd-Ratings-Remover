@@ -1,6 +1,6 @@
 <h1 align="center">
 	<a href="https://chrome.google.com/webstore/detail/letterboxd-ratings-remove/hjnkheioinkniboimdnmpcfcnblcmdka">
-		<img src="letterboxd-ratings-remover-logo.png" alt="logo" width="50">
+		<img src="letterboxd-ratings-remover-logo.png" alt="logo" width="100">
 		<br>Letterboxd Ratings Remover
 	</a>
 </h1>
