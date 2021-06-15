@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="letterboxd-ratings-remover-logo.png"/>
+		<title>Ratings Remover for Letterboxd</title>
+		<style>
+			body
+			{
+				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+				background: #1c2229;
+				background: linear-gradient(to bottom, #1c2229, #11161a);
+				color: rgba(210, 230, 250, 0.8);
+
+				margin: 0 auto;
+				max-width: 1400px;
+			}
+
+			::selection
+			{
+				background: #06d751;
+				color: #ffffff;
+			}
+
+			a
+			{
+				outline: none;
+				text-decoration: none;
+				color: inherit;
+				-webkit-user-select: none;
+				user-select: none;
+			}
+
+			a:hover, a:focus
+			{
+				color: #06d751;
+			}
+
+			h1
+			{
+				font-weight: 500;
+				font-size: 1rem;
+				letter-spacing: 0.02em;
+				margin: 20px 40px;
+			}
+
+			h1 a
+			{
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				gap: 1rem;
+			}
+
+			main
+			{
+				display: grid;
+				grid-template-columns: 3fr 2fr;
+				align-items: center;
+				min-height: calc(100vh - 90px);
+				margin: 0 15px;
+				gap: 20px;
+			}
+
+			img
+			{
+				max-width: 100%;
+				-webkit-user-select: none;
+				user-select: none;
+			}
+
+			p.big
+			{
+				font-size: 3.2vw;
+				font-size: min(3.2vw, 3rem);
+				font-weight: 600;
+				margin-top: 0;
+			}
+
+			p:not(.big)
+			{
+				color: rgba(210, 230, 250, 0.3);
+				margin: 2rem 0;
+			}
+
+			a.get
+			{
+				display: inline-block;
+				min-width: 130px;
+				margin: 0;
+				font-size: 1.2rem;
+				padding: 0.8rem 1.6rem;
+				border: 1px solid #5f7489;
+				border-radius: 6px;
+				background: #191e25;
+				box-shadow: 0 5px 15px -10px rgba(0,0,0,.13),
+				            0 2px  5px  -2px rgba(0,0,0,.16);
+				transition: all 0.15s ease;
+			}
+
+			a.get:first-of-type
+			{
+				margin-right: 10px;
+			}
+
+			a.get::before
+			{
+				content: "download for";
+				display: block;
+				text-transform: uppercase;
+				font-size: 0.6rem;
+				letter-spacing: 0.02rem;
+				margin-bottom: 1em;
+				opacity: 0.8;
+			}
+
+			a.get svg
+			{
+				width: 20px;
+				transform: translateY(15%);
+				margin-right: 0.3rem;
+			}
+
+			a.get:hover, a.get:focus
+			{
+				border-color: currentColor;
+				transform: translateY(-2px);
+				box-shadow: 0 15px 30px -10px rgba(0,0,0,.1),
+				            0 20px 20px -15px rgba(0,0,0,.2);
+			}
+
+			@media screen and (max-width: 1040px)
+			{
+				main
+				{
+					grid-template-columns: 1fr;
+					text-align: center;
+				}
+
+				main img
+				{
+					max-width: 500px;
+					width: 100%;
+					margin: 0 auto;
+				}
+
+				p.big
+				{
+					font-size: 2rem;
+					margin: -20px auto 2rem;
+					max-width: 20ch;
+				}
+
+				a.get
+				{
+					text-align: left;
+					min-width: unset;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>
+				<a href="./">
+					<img src="letterboxd-ratings-remover-logo.png" alt="Logo icon" width="50"/>
+					Ratings Remover for Letterboxd
+				</a>
+			</h1>
+		</header>
+		<main>
+			<img src="Screenshots/screenshot-2021.png" alt="Screenshot of the Letterboxd Ratings Remover extension on Safari."/>
+			<article>
+				<p class="big">
+					Hide all ratings and reviews on Letterboxd.
+				</p>
+				<a class="get" href="https://chrome.google.com/webstore/detail/letterboxd-ratings-remove/hjnkheioinkniboimdnmpcfcnblcmdka">
+					<svg aria-hidden="true" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M132 218L55 100a248 248 0 01414 44l-205-11c-58-3-113 30-132 85zm32 38a84 84 0 10168 0 84 84 0 00-168 0zm315-89l-139 7c38 44 38 108 6 157L234 504c47 2 95-8 138-33 107-62 151-192 107-304zM134 304L40 120a248 248 0 00170 381l63-125c-57 11-113-21-139-72z"/></svg>
+					Chrome
+				</a>
+				<a class="get" href="https://apps.apple.com/us/app/letterboxd-ratings-remover/id1541799039?mt=12">
+					<svg aria-hidden="true" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M275 275l-38-38-71 109zM256 8a248 248 0 100 496 248 248 0 000-496zm156 175l15-6a8 8 0 0110 4 8 8 0 01-4 10l-15 7a8 8 0 01-10-5 8 8 0 014-10zm-98-89l7-15a8 8 0 0110-4 8 8 0 014 10l-6 15a8 8 0 01-10 4 8 8 0 01-5-10zm-58-34a8 8 0 018 8v16a8 8 0 01-8 8 8 8 0 01-8-8V68a8 8 0 018-8zm-75 15a8 8 0 0110 4l7 15a8 8 0 11-15 6l-6-15a8 8 0 014-10zm-64 42a8 8 0 0112 0l11 12a8 8 0 010 11 8 8 0 01-11 0l-12-11a8 8 0 010-12zM60 256a8 8 0 018-8h16a8 8 0 018 8 8 8 0 01-8 8H68a8 8 0 01-8-8zm40 73l-15 6a8 8 0 01-10-4 8 8 0 014-10l15-7a8 8 0 0110 5 8 8 0 01-4 10zm4-136a8 8 0 01-10 5l-15-7a8 8 0 01-4-10 8 8 0 0110-4l15 6a8 8 0 014 10zm94 225l-7 15a8 8 0 01-14-6l6-15a8 8 0 1115 6zm66 26a8 8 0 01-8 8 8 8 0 01-8-8v-16a8 8 0 018-8 8 8 0 018 8zm67-7a8 8 0 01-10-4l-7-15a8 8 0 015-10 8 8 0 0110 4l6 15a8 8 0 01-4 10zm64-42a8 8 0 01-12 0l-11-12a8 8 0 010-11 8 8 0 0111 0l12 11a8 8 0 010 12zM286 286L110 402l116-176 176-116zm151 45a8 8 0 01-10 4l-15-6a8 8 0 01-4-10 8 8 0 0110-5l15 7a8 8 0 014 10zm7-67h-16a8 8 0 01-8-8 8 8 0 018-8h16a8 8 0 018 8 8 8 0 01-8 8z"/></svg>
+					Safari
+				</a>
+				<p>
+					<a href="https://github.com/GoodbyteCo/Letterboxd-Ratings-Remover">
+						View project on Github
+					</a> 
+					&mdash;
+					<a href="https://github.com/GoodbyteCo/Letterboxd-Ratings-Remover/issues">
+						Report a bug
+					</a>
+				</p>
+			</article>
+		</main>
+	</body>
+</html>
