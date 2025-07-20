@@ -12,19 +12,23 @@
 		reviewsButton.appendChild(document.createTextNode('Show Reviews'))
 		reviewsButton.id = 'ratings-remover-show-reviews-button'
 
-		reviewsButton.onclick = () => {
-			const section = document.getElementById('popular-reviews')
+		let reviewsOpen = false
 
-			if(section.style.display == 'block') {
-				section.style.display = 'none'
+		reviewsButton.onclick = () => {
+			const reviews = document.getElementsByClassName('film-reviews')
+
+			if(reviewsOpen) {
+				[...reviews].forEach(element => element.style.display = 'none')
 				reviewsButton.innerHTML = 'Show Reviews'
+				reviewsOpen = false
 			}
 			else {
-				section.style.display = 'block'
+				[...reviews].forEach(element => element.style.display = 'block')
 				reviewsButton.innerHTML = 'Hide Reviews'
+				reviewsOpen = true
 			}
 		}
 
-		document.getElementsByClassName('film-recent-reviews').at(0).appendChild(reviewsButton)
+		document.getElementsByClassName('film-recent-reviews')[0].appendChild(reviewsButton)
 	}
 })()
