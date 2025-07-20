@@ -1,18 +1,30 @@
-var jack_but = document.createElement("BUTTON");
-jack_but.appendChild(document.createTextNode("Show Reviews"));
-jack_but.id = "jack-but";
-jack_but.onclick = function () 
-{
-    var section = document.getElementById("popular-reviews");
-    if(section.style.display == "block")
-    {
-        section.style.display = "none";
-        jack_but.innerHTML = "Show Reviews";
-    }
-    else
-    {
-        section.style.display = "block";
-        jack_but.innerHTML = "Hide Reviews";
-    }
-};
-document.getElementsByClassName("film-recent-reviews")[0].appendChild(jack_but);
+(function() {
+	'use strict'
+	if (document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', init)
+	}
+	else {
+		init()
+	}
+	
+	function init() {
+		const reviewsButton = document.createElement('BUTTON')
+		reviewsButton.appendChild(document.createTextNode('Show Reviews'))
+		reviewsButton.id = 'ratings-remover-show-reviews-button'
+
+		reviewsButton.onclick = () => {
+			const section = document.getElementById('popular-reviews')
+
+			if(section.style.display == 'block') {
+				section.style.display = 'none'
+				reviewsButton.innerHTML = 'Show Reviews'
+			}
+			else {
+				section.style.display = 'block'
+				reviewsButton.innerHTML = 'Hide Reviews'
+			}
+		}
+
+		document.getElementsByClassName('film-recent-reviews').at(0).appendChild(reviewsButton)
+	}
+})()
