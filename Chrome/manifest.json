@@ -4,7 +4,7 @@
 	"version": "1.2",
 	"description": "Removes ratings and reviews from Letterboxd, to help avoid spoilers and expectations.",
 	"action": {"default_title": "Letterboxd Ratings Remover"},
-	"permissions": ["declarativeContent"],
+	"permissions": [],
 	"page_action": 
 	{
 		"default_icon": 
